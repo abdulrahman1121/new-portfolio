@@ -24,7 +24,7 @@ const Hero = () => {
             <br /> Computer Science Student & Software Engineer
           </h1>
           <h3 className="text-gray-600 mt-4 flex-wrap md:px-0 px-4">
-            Rising Senior at UW studying Computer Science, passionate about
+            A junior at UW studying Computer Science, passionate about
             <br />
             technology and driven to make a positive impact through code.
           </h3>
