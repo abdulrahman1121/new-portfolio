@@ -18,8 +18,8 @@ const About = () => {
             building impactful technology solutions.
           </p>
           <p className="mt-2">
-            As a rising Senior at UW, I've gained valuable experience through internships at companies 
-            like Teck Tykes, KeelWorks Foundation, CodeDay Labs, and CFA. I love solving real problems 
+            As a Junior at UW, I've gained valuable experience through internships at companies 
+            like Teck Tykes, KeelWorks Foundation, CodeDay Labs, and Computing for All. I love solving real problems 
             through technology, learning new skills, and creating innovative solutions that make a difference.
           </p>
           <p className="mt-2">
@@ -38,10 +38,9 @@ const About = () => {
             with my technical skills, will enable me to contribute to ongoing success in the tech industry.
           </p>
           <ul className="list-disc mt-3 text-gray-700">
-            <li>Multiple software engineering internships at leading companies</li>
-            <li>Full-Stack Lead Developer for TechStartup Club</li>
+            <li>Multiple software engineering internships</li>
             <li>Proficient in Python, Java, JavaScript, React, Node.js, and more</li>
-            <li>Experience with Machine Learning, AI, and cloud platforms</li>
+            <li>Exposure to Machine Learning, AI, and cloud platforms</li>
             <li>Multilingual: Arabic, Somali, English (learning Spanish & Japanese)</li>
           </ul>
         </div>

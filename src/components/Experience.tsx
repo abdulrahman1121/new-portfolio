@@ -86,7 +86,7 @@ const Experience = () => {
               </h1>
               <Button className="bg-[#EEF4FF] text-[#3B82F6] ml-2">
                 <Star />
-                CFA
+                Computing for All
               </Button>
             </div>
           </div>
