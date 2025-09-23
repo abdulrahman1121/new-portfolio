@@ -12,7 +12,7 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://myportfoliome.vercel.app"),
+  metadataBase: new URL("https://new-portfolio-omega-virid.vercel.app"),
   title: "Abdulrahman Elmi | Computer Science Student & Software Engineer",
   description:
     "Computer Science student at University of Washington with multiple software engineering internship experiences. Passionate about technology, AI/ML, and building impactful solutions. Full-Stack Lead Developer for TechStartup Club with experience in React, Node.js, Python, and modern web technologies.",
@@ -45,14 +45,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://new-portfolio-xxx.vercel.app",
+    url: "https://new-portfolio-omega-virid.vercel.app",
     siteName: "Abdulrahman Elmi Portfolio",
     title: "Abdulrahman Elmi | Computer Science Student & Software Engineer",
     description:
       "Computer Science student at University of Washington with multiple software engineering internship experiences. Passionate about technology, AI/ML, and building impactful solutions. Full-Stack Lead Developer for TechStartup Club.",
     images: [
       {
-        url: "https://new-portfolio-xxx.vercel.app/img/MeAtAMC.jpeg",
+        url: "https://new-portfolio-omega-virid.vercel.app/img/MeAtAMC.jpeg",
         width: 1200,
         height: 630,
         alt: "Abdulrahman Elmi | Computer Science Student & Software Engineer",
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     description:
       "Computer Science student at University of Washington with multiple software engineering internship experiences. Passionate about technology, AI/ML, and building impactful solutions.",
     creator: "@abdulrahman1121",
-    images: ["https://new-portfolio-xxx.vercel.app/img/MeAtAMC.jpeg"],
+    images: ["https://new-portfolio-omega-virid.vercel.app/img/MeAtAMC.jpeg"],
   },
   robots: {
     index: true,
@@ -96,8 +96,8 @@ export const metadata: Metadata = {
       "@context": "https://schema.org",
       "@type": "Person",
       name: "Abdulrahman Elmi",
-      url: "https://new-portfolio-xxx.vercel.app",
-      image: "https://new-portfolio-xxx.vercel.app/img/MeAtAMC.jpeg",
+      url: "https://new-portfolio-omega-virid.vercel.app",
+      image: "https://new-portfolio-omega-virid.vercel.app/img/MeAtAMC.jpeg",
       sameAs: [
         "https://github.com/abdulrahman1121",
         "https://www.linkedin.com/in/abdulrahman-elmi-1813061ba/",
