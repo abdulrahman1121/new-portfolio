@@ -42,7 +42,7 @@ const Contact = () => {
         
         <div className="mt-4">
           <a 
-            href="https://docs.google.com/document/d/1znk0qUh6u078hYSmNRr1TBl-fxVzxaRVLgyGLyW7SzE/edit?tab=t.0" 
+            href="/Resume (15).pdf" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
