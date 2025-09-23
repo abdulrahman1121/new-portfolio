@@ -45,27 +45,27 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://myportfoliome.vercel.app",
-    siteName: "Adebanjo Stephen Portfolio",
-    title: "Adebanjo Stephen | Software Engineer",
+    url: "https://new-portfolio-xxx.vercel.app",
+    siteName: "Abdulrahman Elmi Portfolio",
+    title: "Abdulrahman Elmi | Computer Science Student & Software Engineer",
     description:
-      "Self-taught software engineer and entrepreneur, specializing in Frontend, Backend, Full-stack development with Next.js, JavaScript, and TypeScript. As the founder of StartupFounder, a platform connecting developers and showcasing startups, I'm is dedicated to fostering innovation and community within the tech industry.",
+      "Computer Science student at University of Washington with multiple software engineering internship experiences. Passionate about technology, AI/ML, and building impactful solutions. Full-Stack Lead Developer for TechStartup Club.",
     images: [
       {
-        url: "https://myportfoliome.vercel.app/img/profile-pic.jpg",
+        url: "https://new-portfolio-xxx.vercel.app/img/MeAtAMC.jpeg",
         width: 1200,
         height: 630,
-        alt: "Adebanjo Stephen | Software Engineer",
+        alt: "Abdulrahman Elmi | Computer Science Student & Software Engineer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Adebanjo Stephen | Software Engineer",
+    title: "Abdulrahman Elmi | Computer Science Student & Software Engineer",
     description:
-      "Self-taught software engineer and entrepreneur, specializing in Frontend, Backend, Full-stack development with Next.js, JavaScript, and TypeScript.",
-    creator: "@AdebanjoSt63916",
-    images: ["https://myportfoliome.vercel.app/img/profile-pic.jpg"],
+      "Computer Science student at University of Washington with multiple software engineering internship experiences. Passionate about technology, AI/ML, and building impactful solutions.",
+    creator: "@abdulrahman1121",
+    images: ["https://new-portfolio-xxx.vercel.app/img/MeAtAMC.jpeg"],
   },
   robots: {
     index: true,
@@ -95,17 +95,17 @@ export const metadata: Metadata = {
     __html: JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Person",
-      name: "Adebanjo Stephen",
-      url: "https://myportfoliome.vercel.app",
-      image: "https://myportfoliome.vercel.app/img/profile-pic.jpg",
+      name: "Abdulrahman Elmi",
+      url: "https://new-portfolio-xxx.vercel.app",
+      image: "https://new-portfolio-xxx.vercel.app/img/MeAtAMC.jpeg",
       sameAs: [
-        "https://github.com/SteeveSticks",
-        "https://x.com/AdebanjoSt63916",
+        "https://github.com/abdulrahman1121",
+        "https://www.linkedin.com/in/abdulrahman-elmi-1813061ba/",
       ],
-      jobTitle: "Software Engineer",
+      jobTitle: "Computer Science Student & Software Engineer",
       worksFor: {
         "@type": "Organization",
-        name: "StartupFounder",
+        name: "University of Washington",
       },
     }),
   }}
