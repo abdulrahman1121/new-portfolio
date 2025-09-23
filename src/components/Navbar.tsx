@@ -54,14 +54,14 @@ const Navbar = () => {
           </Tooltip>
           <Tooltip>
             <TooltipTrigger>
-              <a
-                download
-                target="_blank"
-                rel="noopener noreferrer"
-                href="/Resume (15).pdf"
-              >
-                <IoDocumentTextOutline className="size-6 text-white hover:text-white/90 cursor-pointer" />
-              </a>
+        <a
+          download
+          target="_blank"
+          rel="noopener noreferrer"
+          href="/Resume (16).pdf"
+        >
+          <IoDocumentTextOutline className="size-6 text-white hover:text-white/90 cursor-pointer" />
+        </a>
             </TooltipTrigger>
             <ul className="flex-between flex-wrap"></ul>
             <TooltipContent>Resume</TooltipContent>
