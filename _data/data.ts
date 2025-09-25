@@ -35,7 +35,7 @@ export const projects = [
       "JavaScript",
       "AI/ML",
     ],
-    img: "game-genie-1.png",
+    img: "game-genie-gamepage.png",
     link: "https://abdulrahman1121.github.io/game-genie-1/#/",
     git: "https://github.com/abdulrahman1121/game-genie-1",
     problem:

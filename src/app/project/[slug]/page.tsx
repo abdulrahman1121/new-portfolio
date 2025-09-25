@@ -98,7 +98,8 @@ const ProjectPage = async ({
             height={900}
             className="rounded-sm w-full h-auto"
           />
-          {project.video && (
+          {/* Video functionality disabled */}
+          {/* {project.video && (
             <video
               controls
               className="rounded-sm w-full h-auto mt-6"
@@ -108,7 +109,7 @@ const ProjectPage = async ({
               <source src={`/video/${project.video}`} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
-          )}
+          )} */}
         </div>
       </div>
     </div>
