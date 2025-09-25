@@ -1,5 +1,27 @@
 export const projects = [
   {
+    name: "EdgeIncidentDrill - AI Incident Response Trainer",
+    slug: "edge-incident-drill",
+    show: "AI-powered cybersecurity incident response training platform with real-time guidance and voice integration",
+    desc: "An intelligent, real-time incident response training and simulation platform that leverages Cloudflare's edge computing capabilities to provide AI-powered guidance during cybersecurity incidents. Features interactive training scenarios, persistent memory, real-time coordination workflows, voice integration for hands-free operation, and edge-first design for ultra-low latency responses.",
+    lang: [
+      "React",
+      "TypeScript",
+      "Cloudflare Workers",
+      "Llama 3.3 AI",
+      "WebSockets",
+      "Voice API",
+      "Cybersecurity",
+    ],
+    img: "EdgeIncident.png",
+    link: "https://github.com/abdulrahman1121/ai-incident-response-trainer",
+    git: "https://github.com/abdulrahman1121/ai-incident-response-trainer",
+    problem:
+      "Cybersecurity professionals need realistic, hands-on training for incident response scenarios, but traditional training methods are static and don't provide real-time guidance. Teams need AI-powered assistance during actual incidents and comprehensive training platforms that simulate real-world cybersecurity threats with dynamic, interactive scenarios.",
+    solution:
+      "I built EdgeIncidentDrill as an AI-powered incident response training platform that addresses modern cybersecurity training needs. The system leverages Cloudflare's edge computing and Llama 3.3 AI to provide real-time guidance during training scenarios. Features include interactive training scenarios based on actual cybersecurity incidents, voice integration for hands-free operation, persistent memory for learning patterns, real-time coordination workflows, and edge-first design for ultra-low latency responses. The platform supports multiple training scenarios including malware detection, phishing response, DDoS mitigation, data breaches, and network intrusions.",
+  },
+  {
     name: "Game Genie - AI Word Game",
     slug: "game-genie",
     show: "Adaptive AI-powered word puzzle game for kids ages 6-13, featuring personalized learning and educational content",
