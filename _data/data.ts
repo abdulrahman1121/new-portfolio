@@ -14,7 +14,7 @@ export const projects = [
       "Cybersecurity",
     ],
     img: "EdgeIncident.png",
-    link: "https://github.com/abdulrahman1121/ai-incident-response-trainer",
+    link: "https://ai-incident-response-trainer.vercel.app/ ",
     git: "https://github.com/abdulrahman1121/ai-incident-response-trainer",
     problem:
       "Cybersecurity professionals need realistic, hands-on training for incident response scenarios, but traditional training methods are static and don't provide real-time guidance. Teams need AI-powered assistance during actual incidents and comprehensive training platforms that simulate real-world cybersecurity threats with dynamic, interactive scenarios.",
