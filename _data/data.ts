@@ -110,6 +110,28 @@ export const projects = [
       "I built Planning Log Analyzer as a comprehensive root-cause analysis tool. The system processes JSON/CSV planning logs to compute key performance indicators, visualize 2D trajectories with interactive timeline controls, and automatically detect anomalies with severity classification. The FastAPI backend handles log processing and analysis, while the React frontend provides intuitive visualization and report generation capabilities.",
   },
   {
+    name: "Optimus Dashboard",
+    slug: "optimus-dashboard",
+    show: "Comprehensive dashboard solution for data visualization and user experience enhancement",
+    desc: "A comprehensive dashboard solution designed to streamline data visualization and enhance user experience. Features interactive charts, real-time data updates, responsive design, and intuitive user interface. Built with modern web technologies to provide powerful analytics and monitoring capabilities for various applications and systems.",
+    lang: [
+      "React",
+      "JavaScript",
+      "CSS3",
+      "Data Visualization",
+      "Dashboard",
+      "UI/UX",
+      "Responsive Design",
+    ],
+    img: "optimus.png",
+    link: "https://github.com/abdulrahman1121/optimus-dashboard2",
+    git: "https://github.com/abdulrahman1121/optimus-dashboard2",
+    problem:
+      "Organizations need comprehensive dashboard solutions to visualize complex data and monitor system performance. Traditional dashboards often lack interactivity, real-time updates, and responsive design, making it difficult for users to effectively analyze data and make informed decisions.",
+    solution:
+      "I built Optimus Dashboard as a comprehensive solution that addresses modern data visualization needs. The dashboard features interactive charts and graphs, real-time data updates, responsive design that works across all devices, and an intuitive user interface. Built with React and modern web technologies, it provides powerful analytics and monitoring capabilities that help users visualize complex data and make data-driven decisions effectively.",
+  },
+  {
     name: "Microservice Healthboard",
     slug: "microservice-healthboard",
     show: "Real-time monitoring dashboard for microservices with fault injection, SLO tracking, and burn rate monitoring",
