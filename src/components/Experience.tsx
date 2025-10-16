@@ -70,22 +70,6 @@ const Experience = () => {
               </h1>
               <Button className="bg-[#EEF4FF] text-[#3B82F6] ml-2">
                 <Star />
-                CodeDay Labs
-              </Button>
-            </div>
-          </div>
-
-          <div className="md:flex md:items-center md:justify-between grid mt-8">
-            <span className="md:text-sm text-[13px] text-gray-500 px-2 mb-2">
-              2024
-            </span>
-
-            <div className="flex-center">
-              <h1 className="text-gray-500 max-sm:hidden">
-                Software Engineering Intern
-              </h1>
-              <Button className="bg-[#EEF4FF] text-[#3B82F6] ml-2">
-                <Star />
                 Computing for All
               </Button>
             </div>

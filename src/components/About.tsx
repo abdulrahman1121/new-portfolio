@@ -17,26 +17,13 @@ const About = () => {
             and an aspiring Software Engineer with multiple internship experiences and a strong drive for 
             building impactful technology solutions.
           </p>
+
           <p className="mt-2">
-            As a Junior at UW, I've gained valuable experience through internships at companies 
-            like Teck Tykes, KeelWorks Foundation, CodeDay Labs, and Computing for All. I love solving real problems 
-            through technology, learning new skills, and creating innovative solutions that make a difference.
-          </p>
-          <p className="mt-2">
-            I'm a very active person that loves to try and learn new things, whether it's learning a new 
-            life skill or getting better at what I'm already doing. I'm a fan of technology, I know its 
-            power and potential to greatly change our life for the better and I want to be a part of that change.
-          </p>
-          <p className="mt-2">
+            I'm a fan of technology, I know its power and potential to greatly change our life for the better and I want to be a part of that change.
             I play multiple sports and my favorite ones are basketball and soccer. I also speak 3 languages: 
-            Arabic, Somali, and English, and I'm currently learning Spanish and Japanese. I'm actively seeking 
-            opportunities to gain hands-on experience, contribute to meaningful products, and grow professionally.
+            Arabic, Somali, and English, and I'm currently learning Spanish and Japanese.
           </p>
-          <p className="mt-2">
-            I'm also actively building my presence in the tech community and seeking opportunities 
-            to contribute to meaningful products. I'm confident that my collaborative trait, combined 
-            with my technical skills, will enable me to contribute to ongoing success in the tech industry.
-          </p>
+          
           <ul className="list-disc mt-3 text-gray-700">
             <li>Multiple software engineering internships</li>
             <li>Proficient in Python, Java, JavaScript, React, Node.js, and more</li>
