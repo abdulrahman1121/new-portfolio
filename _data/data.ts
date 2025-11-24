@@ -66,6 +66,33 @@ export const projects = [
       "I built Math Pair Game as a web-based puzzle game that combines entertainment with education. The game features a 4x4 grid where players match number pairs that satisfy mathematical operations to reach target values. With three difficulty levels (Basic, Intermediate, Advanced), real-time visual feedback, and a modern UI built with React and Tailwind CSS, it provides an engaging way to practice math skills. The backend uses Node.js and Express with OpenAI integration for generating valid number pairs.",
   },
   {
+    name: "LinkedInsight",
+    slug: "linkedin-insight",
+    show: "AI-powered career and skills navigator that helps professionals discover learning paths and generate personalized roadmaps",
+    desc: "LinkedInsight is an AI-powered career and skills navigator that helps professionals discover learning paths, understand skill relationships, and generate personalized roadmaps. Features include a skill graph explorer for visualizing skill prerequisites and relationships, an AI roadmap generator that creates structured 4-week learning plans, skill gap analysis with career path insights, and a comprehensive dashboard for system monitoring and activity tracking.",
+    lang: [
+      "FastAPI",
+      "Next.js",
+      "TypeScript",
+      "OpenAI API",
+      "ChromaDB",
+      "NetworkX",
+      "SQLAlchemy",
+      "SQLite",
+      "SpaCy",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "React Query",
+    ],
+    img: "Linkedinight-photo.png",
+    link: "https://linkedin-insight.vercel.app",
+    git: "https://github.com/abdulrahman1121/linkedin-insight",
+    problem:
+      "Professionals struggle to understand skill relationships, identify learning paths, and create structured roadmaps for career development. Traditional career guidance lacks personalized AI-powered insights, skill graph visualization, and actionable learning plans that adapt to individual goals and existing knowledge.",
+    solution:
+      "I built LinkedInsight as an AI-powered career and skills navigator that addresses professional development challenges. The platform features a skill graph explorer built with NetworkX that visualizes skill relationships and prerequisites, an AI roadmap generator using OpenAI that creates personalized 4-week learning plans with weekly objectives and resources, skill gap analysis that explains why missing skills are important and how they connect to current knowledge, and a comprehensive dashboard for monitoring and tracking. The backend uses FastAPI with ChromaDB for vector search, while the Next.js frontend provides an intuitive interface with shadcn/ui components.",
+  },
+  {
     name: "EV Route Optimizer",
     slug: "ev-route-optimizer",
     show: "Tesla-inspired electric vehicle route planning application that optimizes charging stops for long-distance journeys",
