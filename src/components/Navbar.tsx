@@ -58,7 +58,7 @@ const Navbar = () => {
           download
           target="_blank"
           rel="noopener noreferrer"
-          href="/Resume (27).pdf"
+          href="/Abdulrahman_Elmi_Resume.pdf"
         >
           <IoDocumentTextOutline className="size-6 text-white hover:text-white/90 cursor-pointer" />
         </a>
