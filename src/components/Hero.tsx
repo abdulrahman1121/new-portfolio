@@ -7,7 +7,7 @@ import StackLoop from "./StackLoop";
 const Hero = () => {
   return (
     <div>
-      <section className="grid justify-center items-center text-center py-24 mt-6">
+      <section className="font-body grid justify-center items-center text-center py-24 mt-6">
         <div className="inline-flex items-center justify-center">
           <Image
             src="/img/Bitomji.jpeg"
@@ -19,7 +19,7 @@ const Hero = () => {
         </div>
 
         <div className="">
-          <h1 className="font-bold md:leading-14 leading-8 md:text-[56px] text-[28px] mt-6">
+          <h1 className="font-heading font-semibold md:leading-14 leading-8 md:text-[56px] text-[28px] mt-6">
             Hi, I&apos;m Abdulrahman Elmi.
             <br /> Computer Science Student & Software Engineer
           </h1>

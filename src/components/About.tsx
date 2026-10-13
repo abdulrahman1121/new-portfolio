@@ -8,10 +8,10 @@ import { Button } from "./ui/button";
 
 const About = () => {
   return (
-    <div className="py-28 mt-10 px-4 sm:px-6 lg:px-4">
+    <div className="font-body pt-15 pb-13 mt-10 px-4 sm:px-6 lg:px-4">
       <div className="max-w-2xl grid items-center justify-start text-wrap mx-auto prose">
         <div className="">
-          <div className="font-bold text-3xl text-black/90">About</div>
+          <div className="font-display font-semibold text-4xl text-black/90">About</div>
           <p>
             I'm Abdulrahman Elmi, a passionate Computer Science student at the University of Washington 
             and an aspiring Software Engineer with multiple internship experiences and a strong drive for 

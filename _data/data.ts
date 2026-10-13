@@ -291,3 +291,44 @@ export const projects = [
       "I built Sentiment Analysis as an AI-powered tool that addresses text analysis challenges. The application uses machine learning and natural language processing techniques to automatically analyze text and determine emotional sentiment. Features include real-time text analysis, sentiment scoring, emotion classification, and comprehensive reporting capabilities that help users understand the emotional context of written content for better decision-making.",
   },
 ];
+
+// Artifacts: fill in `name`, `show`, `link` and `reflection` for each one.
+// Leave `link` or `reflection` empty ("") and the page shows a placeholder.
+export const artifacts = [
+  {
+    name: "Personal Portfolio",
+    slug: "artifact-1",
+    show: "My personal portfolio showcasing myself and my work",
+    link: "https://abdulrahmanelmi.com",
+    reflection:
+      "I already had this portfolio built, so for this artifact I added polish work: company logos in the experience section, new fonts, and consistent spacing between my sections.",
+  },
+  {
+    name: "Artifact 2",
+    slug: "artifact-2",
+    show: "One-line summary of this artifact",
+    link: "",
+    reflection: "",
+  },
+  {
+    name: "Artifact 3",
+    slug: "artifact-3",
+    show: "One-line summary of this artifact",
+    link: "",
+    reflection: "",
+  },
+  {
+    name: "Artifact 4",
+    slug: "artifact-4",
+    show: "One-line summary of this artifact",
+    link: "",
+    reflection: "",
+  },
+  {
+    name: "Artifact 5",
+    slug: "artifact-5",
+    show: "One-line summary of this artifact",
+    link: "",
+    reflection: "",
+  },
+];

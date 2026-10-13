@@ -1,7 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import { Button } from "./ui/button";
-import { Star } from "lucide-react";
 import { SiAdobe } from "react-icons/si";
 
 type Job = {
@@ -17,7 +15,7 @@ const jobs: Job[] = [
     year: "2026",
     role: "Software Engineering Intern",
     company: "Adobe",
-    logo: <SiAdobe className="size-4 text-[#FF0000]" />,
+    logo: <SiAdobe className="size-6 p-0.5 text-[#FF0000]" />,
   },
   {
     year: "2025",
@@ -52,12 +50,12 @@ const CompanyLogo = ({ job }: { job: Job }) =>
     <Image
       src={job.logoSrc}
       alt={`${job.company} logo`}
-      width={20}
-      height={20}
-      className="size-5 rounded-sm object-contain"
+      width={24}
+      height={24}
+      className="size-6 rounded-md object-contain"
     />
   ) : (
-    <span className="flex size-4 items-center justify-center rounded-sm bg-[#3B82F6] text-[10px] font-bold text-white">
+    <span className="flex size-6 items-center justify-center rounded-md bg-[#3B82F6] text-xs font-bold text-white">
       {job.company[0]}
     </span>
   ));
@@ -65,51 +63,48 @@ const CompanyLogo = ({ job }: { job: Job }) =>
 const Experience = () => {
   return (
     <div id="experience" className="px-2 sm:px-20 lg:px-20">
-      <hr className="mt-30 px-10" />
+      <hr className="mt-15 px-10" />
 
-      <div className="mt-18 p-6">
+      <div className="mt-10 px-6">
         <div>
           <h2 className="font-bold text-2xl text-black">Work Experience</h2>
 
-          {jobs.map((job) => (
-            <div
-              key={`${job.company}-${job.year}`}
-              className="md:flex md:items-center md:justify-between grid mt-8"
-            >
-              <span className="md:text-sm text-[13px] text-gray-500 px-2 mb-2">
-                {job.year}
-              </span>
-
-              <div className="flex-center">
-                <h1 className="text-gray-500 max-sm:hidden">{job.role}</h1>
-                <Button className="bg-[#EEF4FF] text-[#3B82F6] ml-2">
-                  <CompanyLogo job={job} />
+          <div className="mt-8 border-t border-gray-200">
+            {jobs.map((job) => (
+              <div
+                key={`${job.company}-${job.year}`}
+                className="flex items-center gap-3 sm:gap-4 py-4 border-b border-gray-200"
+              >
+                <CompanyLogo job={job} />
+                <span className="font-bold text-black sm:flex-1">
                   {job.company}
-                </Button>
+                </span>
+                <span className="text-sm text-gray-500 max-sm:hidden sm:flex-[1.3]">
+                  {job.role}
+                </span>
+                <span className="text-sm text-gray-500 tabular-nums ml-auto sm:ml-0">
+                  {job.year}
+                </span>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
 
-        <div className="text-wrap prose border p-2 mt-14 rounded-sm shadow-sm">
-          <Star className="text-[#3B82F6] mb-2" />
-          <span className="bg-[#EEF4FF] text-[#3B82F6]">
-            As a Computer Science student at UW, I've gained valuable experience
-            through multiple software engineering internships and leadership
-            roles. I'm passionate about technology and its potential to change
-            lives for the better.
-            <br />
-            I&apos;m actively seeking opportunities to gain hands-on experience,
-            contribute to meaningful products, and grow professionally.{" "}
-            <span className="text-gray-700">
-              If you&apos;re looking for someone hungry to learn and build —
-              let&apos;s connect.
-            </span>
-          </span>
-        </div>
+        <p className="mt-14 border-l-[3px] border-[#3B82F6] py-1 pl-4 leading-relaxed text-gray-600">
+          As a Computer Science student at UW, I&apos;ve gained valuable
+          experience through multiple software engineering internships and
+          leadership roles. I&apos;m passionate about technology and its
+          potential to change lives for the better. I&apos;m actively seeking
+          opportunities to gain hands-on experience, contribute to meaningful
+          products, and grow professionally.{" "}
+          <strong className="font-semibold text-black">
+            If you&apos;re looking for someone hungry to learn and build —
+            let&apos;s connect.
+          </strong>
+        </p>
       </div>
 
-      <hr className="mt-20" />
+      <hr className="mt-12" />
     </div>
   );
 };
