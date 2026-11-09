@@ -320,9 +320,10 @@ export const artifacts = [
   {
     name: "Artifact 4",
     slug: "artifact-4",
-    show: "One-line summary of this artifact",
-    link: "",
-    reflection: "",
+    show: "A platform for teenagers to learn about driving",
+    link: "https://super-driver-seven.vercel.app/",
+    reflection:
+      "This is only the first ever version, currently users can learn 4 different lessons and quickly check their understanding. The plan is to add much more lessons, a mock of the actual driving test, and more interactive puzzles to make this really stick. Growing up, I learned about driving and passed the permit test the boring way and the knowledge barely stayed with me, mainly because I didn't go to an actual school/program for it. I want to change that with this platform.",
   },
   {
     name: "Artifact 5",
