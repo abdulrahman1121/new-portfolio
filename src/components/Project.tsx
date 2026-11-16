@@ -56,7 +56,7 @@ const Project = () => {
           ))}
         </div>
 
-        <div className="mt-20 px-4 sm:px-6 md:px-8">
+        <div id="artifacts" className="mt-20 px-4 sm:px-6 md:px-8">
           <h2 className="font-grotesk text-3xl font-semibold">Artifacts</h2>
           <div className="mt-6 border-t border-gray-200">
             {artifacts.map((artifact) => (

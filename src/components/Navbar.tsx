@@ -36,6 +36,11 @@ const Navbar = () => {
                 <Link href="/#experience">Experience</Link>
               </Button>
             </li>
+            <li className="sm:block hidden">
+              <Button variant="link">
+                <Link href="/#artifacts">Artifacts</Link>
+              </Button>
+            </li>
           </ul>
         </div>
 
