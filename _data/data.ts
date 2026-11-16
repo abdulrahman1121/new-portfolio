@@ -328,8 +328,9 @@ export const artifacts = [
   {
     name: "Artifact 5",
     slug: "artifact-5",
-    show: "One-line summary of this artifact",
-    link: "",
-    reflection: "",
+    show: "Attendance, daily logs and family updates for care teams",
+    link: "https://frontend-pink-eight-29.vercel.app/",
+    reflection:
+      "How we picked the features: I started from who it's for. I know people who run childcare and saw them logging by hand, so childcare comes first and senior care and disability support come later. For the main features we looked at competitors (brightwheel and Papa) and picked three that help busy staff whose hands are full: check-in on a shared tablet that works without Wi-Fi, logging by voice, and alerts when someone's naps, meals or attendance change, worded as observations and never as diagnoses. The alerts need logged data first, so they come last.",
   },
 ];
