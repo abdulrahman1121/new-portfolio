@@ -12,7 +12,7 @@ import {
 const Navbar = () => {
   return (
     <header className="py-4">
-      <nav className="max-w-[586px] mx-auto bg-black/85 flex flex-wrap justify-between items-center py-2 px-4 rounded-full border outline-none shadow-md fixed left-0 right-0 z-50">
+      <nav className="max-w-[680px] mx-auto bg-black/85 flex flex-wrap justify-between items-center py-2 px-4 rounded-full border outline-none shadow-md fixed left-0 right-0 z-50">
         <div>
           <Link href="/">
             <img src="/img/brandLogo.png" alt="Brand Logo" />
@@ -33,12 +33,12 @@ const Navbar = () => {
             </li>
             <li className="sm:block hidden">
               <Button variant="link">
-                <Link href="/#experience">Experience</Link>
+                <Link href="/#artifacts">Artifacts</Link>
               </Button>
             </li>
             <li className="sm:block hidden">
               <Button variant="link">
-                <Link href="/#artifacts">Artifacts</Link>
+                <Link href="/#experience">Experience</Link>
               </Button>
             </li>
           </ul>
