@@ -61,11 +61,6 @@ export const metadata: Metadata = {
   creator: "Abdulrahman Elmi",
   publisher: "Abdulrahman Elmi",
   formatDetection: { email: false, address: false, telephone: false },
-  icons: {
-    icon: "/img/MeAtAMC.jpeg",
-    shortcut: "/img/MeAtAMC.jpeg",
-    apple: "/img/MeAtAMC.jpeg",
-  },
   openGraph: {
     type: "website",
     locale: "en_US",
