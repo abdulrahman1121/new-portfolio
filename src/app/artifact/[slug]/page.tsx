@@ -2,7 +2,8 @@ import React from "react";
 import { artifacts } from "../../../../_data/data";
 import { notFound } from "next/navigation";
 import { Button } from "@/components/ui/button";
-import { ExternalLink } from "lucide-react";
+import { ExternalLink, ScrollText } from "lucide-react";
+import { FiGithub } from "react-icons/fi";
 import Link from "next/link";
 
 export async function generateStaticParams() {
@@ -31,9 +32,9 @@ const ArtifactPage = async ({
           {artifact.show}
         </p>
 
-        <div className="mt-8">
+        <div className="mt-8 flex flex-wrap items-center gap-3">
           {artifact.link ? (
-            <Link target="_blank" href={artifact.link}>
+            <Link target="_blank" rel="noreferrer" href={artifact.link}>
               <Button className="!py-6 !bg-black/90 text-white !cursor-pointer">
                 View Artifact <ExternalLink />
               </Button>
@@ -41,6 +42,30 @@ const ArtifactPage = async ({
           ) : (
             <span className="inline-block rounded-lg border border-dashed px-4 py-3 text-sm text-gray-500">
               Link coming soon
+            </span>
+          )}
+
+          {artifact.github ? (
+            <Link target="_blank" rel="noreferrer" href={artifact.github}>
+              <Button variant="outline" className="!py-6 !cursor-pointer">
+                <FiGithub /> GitHub Repo
+              </Button>
+            </Link>
+          ) : (
+            <span className="inline-block rounded-lg border border-dashed px-4 py-3 text-sm text-gray-500">
+              GitHub repo coming soon
+            </span>
+          )}
+
+          {artifact.logs ? (
+            <Link target="_blank" rel="noreferrer" href={artifact.logs}>
+              <Button variant="outline" className="!py-6 !cursor-pointer">
+                <ScrollText /> Logs
+              </Button>
+            </Link>
+          ) : (
+            <span className="inline-block rounded-lg border border-dashed px-4 py-3 text-sm text-gray-500">
+              Logs coming soon
             </span>
           )}
         </div>

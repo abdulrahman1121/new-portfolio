@@ -292,14 +292,16 @@ export const projects = [
   },
 ];
 
-// Artifacts: fill in `name`, `show`, `link` and `reflection` for each one.
-// Leave `link` or `reflection` empty ("") and the page shows a placeholder.
+// Artifacts: fill in `name`, `show`, `link`, `github`, `logs` and `reflection`.
+// Leave `link`, `github`, `logs` or `reflection` empty ("") and the page shows a placeholder.
 export const artifacts = [
   {
     name: "Personal Portfolio",
     slug: "artifact-1",
     show: "My personal portfolio showcasing myself and my work",
     link: "https://abdulrahmanelmi.com",
+    github: "",
+    logs: "",
     reflection:
       "I already had this portfolio built, so for this artifact I added polish work: company logos in the experience section, new fonts, and consistent spacing between my sections.",
   },
@@ -308,6 +310,8 @@ export const artifacts = [
     slug: "artifact-2",
     show: "One-line summary of this artifact",
     link: "",
+    github: "",
+    logs: "",
     reflection: "",
   },
   {
@@ -315,6 +319,8 @@ export const artifacts = [
     slug: "artifact-3",
     show: "One-line summary of this artifact",
     link: "",
+    github: "",
+    logs: "",
     reflection: "",
   },
   {
@@ -322,6 +328,8 @@ export const artifacts = [
     slug: "artifact-4",
     show: "A platform for teenagers to learn about driving",
     link: "https://super-driver-seven.vercel.app/",
+    github: "https://github.com/abdulrahman1121/super-driver",
+    logs: "https://github.com/abdulrahman1121/super-driver/blob/main/LOG.md",
     reflection:
       "This is only the first ever version, currently users can learn 13 different lessons and quickly check their understanding, with the answer order randomized every time a lesson is visited. The plan is to add much more lessons, a mock of the actual driving test, and more interactive puzzles to make this really stick. Growing up, I learned about driving and passed the permit test the boring way and the knowledge barely stayed with me, mainly because I didn't go to an actual school/program for it. I want to change that with this platform.",
   },
@@ -330,6 +338,8 @@ export const artifacts = [
     slug: "artifact-5",
     show: "Attendance, daily logs and family updates for care teams",
     link: "https://frontend-pink-eight-29.vercel.app/",
+    github: "https://github.com/abdulrahman1121/care-for-all/",
+    logs: "https://github.com/abdulrahman1121/care-for-all/blob/main/LOG.md",
     reflection:
       "How we picked the features: I started from who it's for. I know people who run childcare and saw them logging by hand, so childcare comes first and senior care and disability support come later. For the main features we looked at competitors (brightwheel and Papa) and picked three that help busy staff whose hands are full: check-in on a shared tablet that works without Wi-Fi, logging by voice, and alerts when someone's naps, meals or attendance change, worded as observations and never as diagnoses. The alerts need logged data first, so they come last.",
   },
